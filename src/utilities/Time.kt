@@ -30,7 +30,7 @@ class Time(
             if(hours + 7 > 23)
                 newHour = hours + 6 - 23
             else
-                newHour = hours + 7
+                newHour = hours + 0
         }
         return """
             ${newHour}:${minutes}:${seconds}

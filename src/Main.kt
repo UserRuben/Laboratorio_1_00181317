@@ -22,8 +22,8 @@ fun main(){
 
     mess = ""
     var t = Time(22, 22, 3)
-    var tt = Time(22, 22, 3)
-    var ttt = Time(22, 22, 3)
+    var tt = Time(hours = 22, minutes =  22)
+    var ttt = Time(minutes = 22)
 
     mess += "time in Francia ${t.convertTime("fra")}\n"
     mess += "time in Japon ${tt.convertTime("jap")}\n"
